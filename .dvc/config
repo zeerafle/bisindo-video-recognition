@@ -1,0 +1,4 @@
+[core]
+    remote = bisindo-video
+['remote "bisindo-video"']
+    url = gs://bisindo-video-recognition
