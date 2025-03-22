@@ -3,3 +3,4 @@ outs:
   size: 68630033
   hash: md5
   path: seq_model.keras
+  isexec: true
