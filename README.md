@@ -9,9 +9,9 @@ A BISINDO Indonesian sign language recognition
 ## How to test using webcam
 
 0. Have Python installed
-1. Clone this repo
+1. Clone this branch
     ```bash
-    git clone https://github.com/zeerafle/bisindo-video-recognition.git
+    git clone -b webcam-test https://github.com/zeerafle/bisindo-video-recognition.git
 2. Install [uv](https://docs.astral.sh/uv/). Use either one of the below methods
    - `pip install uv`   (if have python installed before)
    - `curl -LsSf https://astral.sh/uv/install.sh | sh`  (for macos or linux)
@@ -26,7 +26,7 @@ A BISINDO Indonesian sign language recognition
     # log in to gcloudcli
     gcloud auth login
     ```
-5. Run the following command to pull the model (and make sure you're already have access to the bucket)
+5. Run the following command to pull the model (and make sure you're already have access to the bucket. Contact for get access)
     ```bash
     uv run dvc pull models/seq_model.keras
     ```
